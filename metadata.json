@@ -1,0 +1,6 @@
+{
+  "name": "MEZ Turkish Restaurant",
+  "description": "Experience authentic Turkish cuisine, premium dining and elegant ambience at MEZ Turkish Restaurant in Gulberg, Lahore. Explore our menu and reserve your table.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
