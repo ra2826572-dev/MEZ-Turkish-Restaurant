@@ -1,5 +1,16 @@
 import { MenuItem, MenuCategory, ReviewItem, GalleryImage } from '../types';
 
+// Direct ES Module imports for Vite production build bundling
+import heroImg from '../assets/images/mez_hero_dining_1787219900163.jpg';
+import specialPlatterImg from '../assets/images/mez_special_platter_1787219916087.jpg';
+import ambienceImg from '../assets/images/mez_ambience_interior_1787219934141.jpg';
+import iskenderBeefImg from '../assets/images/mez_iskender_kebab_1787219953510.jpg';
+import kunafaImg from '../assets/images/mez_kunafa_dessert_1787219980108.jpg';
+import pideImg from '../assets/images/mez_turkish_pide_1787219995277.jpg';
+import turkishPicklesImg from '../assets/images/mez_turkish_pickles_1787222110343.jpg';
+import frenchFriesImg from '../assets/images/mez_french_fries_1787222125961.jpg';
+import falafelImg from '../assets/images/mez_falafel_platter_1787222298639.jpg';
+
 export const RESTAURANT_INFO = {
   name: 'MEZ Turkish Restaurant',
   shortName: 'MEZ',
@@ -25,17 +36,17 @@ export const RESTAURANT_INFO = {
   priceRange: 'PKR 1,500 – 4,500 per person',
 };
 
-// Generated luxury photography assets
+// Generated luxury photography assets bundled permanently for development & deployment
 export const IMAGES = {
-  hero: '/src/assets/images/mez_hero_dining_1787219900163.jpg',
-  specialPlatter: '/src/assets/images/mez_special_platter_1787219916087.jpg',
-  ambience: '/src/assets/images/mez_ambience_interior_1787219934141.jpg',
-  iskenderBeef: '/src/assets/images/mez_iskender_kebab_1787219953510.jpg',
-  kunafa: '/src/assets/images/mez_kunafa_dessert_1787219980108.jpg',
-  pide: '/src/assets/images/mez_turkish_pide_1787219995277.jpg',
-  turkishPickles: '/src/assets/images/mez_turkish_pickles_1787222110343.jpg',
-  frenchFries: '/src/assets/images/mez_french_fries_1787222125961.jpg',
-  falafel: '/src/assets/images/mez_falafel_platter_1787222298639.jpg',
+  hero: heroImg,
+  specialPlatter: specialPlatterImg,
+  ambience: ambienceImg,
+  iskenderBeef: iskenderBeefImg,
+  kunafa: kunafaImg,
+  pide: pideImg,
+  turkishPickles: turkishPicklesImg,
+  frenchFries: frenchFriesImg,
+  falafel: falafelImg,
   // Curated authentic Turkish culinary assets
   lambShank: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=80',
   hummusMeat: 'https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=1000&q=80',
